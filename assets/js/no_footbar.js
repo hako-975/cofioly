@@ -1,0 +1,1 @@
+$('#footbar_main').hide();

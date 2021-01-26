@@ -1,0 +1,1 @@
+<script src="<?= base_url('assets/js/show_hide_password_registration-config.js'); ?>"></script>

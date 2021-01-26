@@ -1,0 +1,383 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+.overflow-y-hidden {
+    overflow-y: hidden !important;
+}
+
+
+.rounded-left-pill {
+    border-top-left-radius: 50rem !important;
+    border-bottom-left-radius: 50rem !important;
+}
+
+.rounded-right-pill {
+    border-top-right-radius: 50rem !important;
+    border-bottom-right-radius: 50rem !important;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #343a40;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #343a40;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #343a40;
+    background: #fff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #343a40;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #343a40;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #343a40;
+}
+
+a.article,
+a.article:hover {
+    background: #343a40 !important;
+    color: #fff !important;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: calc(100% - 250px);
+    padding: 40px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#content.active {
+    width: 100%;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #content {
+        width: 100%;
+    }
+    #content.active {
+        width: calc(100% - 250px);
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+/* ---------------------------------------------------
+    Scroll to top
+----------------------------------------------------- */
+
+.scroll-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+  width: 2.75rem;
+  height: 2.75rem;
+  text-align: center;
+  color: #fff;
+  background: rgba(90, 92, 105, 0.5);
+  line-height: 46px;
+}
+
+.scroll-to-top:focus, .scroll-to-top:hover {
+  color: white;
+}
+
+.scroll-to-top:hover {
+  background: #343a40;
+}
+
+.scroll-to-top i {
+  font-weight: 800;
+}
+
+/* ---------------------------------------------------
+    Scroll to bar
+----------------------------------------------------- */
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {     
+    background: #E19026;    
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #B26B18;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #904906;
+}
+
+/* ---------------------------------------------------
+    yt icon
+----------------------------------------------------- */
+.social_icon {
+    text-align: center;
+    max-width: 50%;
+    min-width: 50%;
+}
+
+@media (min-width: 992px) {
+    .social_icon {
+        text-align: center;
+        max-width: 100%;
+        min-width: 100%;
+    }
+}
+
+/* ---------------------------------------------------
+    Social Link
+----------------------------------------------------- */
+.social_link:hover {
+    color: #007bff;
+}    
+
+
+
+/* ---------------------------------------------------
+    title
+----------------------------------------------------- */
+
+.title {
+    width: 45%;
+    border-top-left-radius: 1.5rem !important;
+    border-top-right-radius: 1.5rem !important;
+    border-top: 1px solid #343a40 !important;
+    border-left: 1px solid #343a40 !important;
+    border-right: 1px solid #343a40 !important;
+    border-bottom: none;
+}
+
+@media(min-width: 992px) {
+    .title {
+        width: 25%;
+        border-top-left-radius: 1.5rem !important;
+        border-top-right-radius: 1.5rem !important;
+        border-top: 1px solid #343a40 !important;
+        border-left: 1px solid #343a40 !important;
+        border-right: 1px solid #343a40 !important;
+        border-bottom: none;
+    }
+}
+
+/* ---------------------------------------------------
+    btn edit profile
+----------------------------------------------------- */
+
+.btnEditProfileImg {
+    -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6)); 
+    position: absolute; 
+    right: 0;
+    top: 0;
+}
+
+/* ---------------------------------------------------
+    input edit nama brand
+----------------------------------------------------- */
+.inputNamaBrand {
+    display: none; 
+    width: 90%; 
+    margin: 20px auto;
+}
+@media(min-width: 992px) {
+    .inputNamaBrand {
+        display: none; 
+        width: 50%; 
+        margin: 20px auto;
+    }
+}
+
+/* ---------------------------------------------------
+    btn edit nama brand
+----------------------------------------------------- */
+.btnEditNamaBrand { 
+    -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6)); 
+    position: absolute; 
+    right: 0;
+    top: 0;
+}
+
+/* ---------------------------------------------------
+    btn Save nama brand
+----------------------------------------------------- */
+.btnSaveNamaBrand {
+    -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6)); 
+    position: absolute; 
+    right: .5rem;
+    top: 0;
+}
+
+@media(min-width: 992px) {
+    .btnSaveNamaBrand {
+        -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6)); 
+        position: absolute; 
+        right: 14rem;
+        top: 0;
+    }
+}
+
+.btnEditTextBox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.5);
+}
+
+.btnSaveTextBox {
+    position: absolute;
+    top: -2.5rem;
+    right: 0;
+    background-color: rgba(0,0,0,.5);
+}
+
+/* ---------------------------------------------------
+    btn social
+----------------------------------------------------- */
+.btnEditSocial { 
+    -webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6)); 
+    position: absolute; 
+    right: 0;
+    top: -.5rem;
+}
+
+
+
+
+
+

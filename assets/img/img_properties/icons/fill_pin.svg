@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<radialGradient id="SVGID_1_" cx="519.9863" cy="968.709" r="139.3872" gradientUnits="userSpaceOnUse">
+	<stop  offset="0.0572" style="stop-color:#130C0E;stop-opacity:0.2068"/>
+	<stop  offset="0.2572" style="stop-color:#130C0E;stop-opacity:0"/>
+	<stop  offset="0.7977" style="stop-color:#130C0E;stop-opacity:0.6512"/>
+	<stop  offset="1" style="stop-color:#130C0E;stop-opacity:0.95"/>
+</radialGradient>
+<polygon fill="url(#SVGID_1_)" points="659.415,956.541 587.675,981.914 642.825,1034.342 568.756,1016.902 586.808,1090.824 
+	533.925,1036.108 509.146,1108.055 494.239,1033.435 434.496,1080.563 462.3,1009.729 386.561,1017.076 448.247,972.52 
+	380.559,937.753 456.541,933.619 418.395,867.776 484.55,905.378 488.057,829.364 523.381,896.763 567.427,834.712 560.706,910.509 
+	631.308,882.121 584.673,942.252 "/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="248.5479" y1="929.377" x2="334.9179" y2="1045.8693" gradientTransform="matrix(0.8475 -0.5308 0.5308 0.8475 -174.0977 388.3586)">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#231F20"/>
+</linearGradient>
+<polygon fill="url(#SVGID_2_)" stroke="#231F20" stroke-width="3" stroke-miterlimit="10" points="551.27,1252.896 561.275,757.08 
+	489.679,754.787 479.719,1249.195 478.699,1249.145 511.857,1336.297 551.625,1252.916 "/>
+<ellipse transform="matrix(0.9998 0.0181 -0.0181 0.9998 13.3579 -9.4142)" fill="#E19026" stroke="#E19026" stroke-width="10" stroke-miterlimit="10" cx="527.893" cy="734.852" rx="247.215" ry="78.835"/>
+<path fill="#B26B18" stroke="#B26B18" stroke-width="10" stroke-miterlimit="10" d="M711.161,709.799
+	c-60.306,66.918-283.864,61.686-356.193-6.432c-50.824-47.867-65.471-310.361-38.062-299.175
+	c97.225,39.678,264.952,58.517,406.877,15.043C793.85,397.773,757.379,658.518,711.161,709.799z"/>
+<ellipse transform="matrix(0.9998 0.0181 -0.0181 0.9998 6.9072 -9.5879)" fill="#E19026" stroke="#E19026" stroke-width="10" stroke-miterlimit="10" cx="534.346" cy="377.661" rx="247.216" ry="63.444"/>
+<text transform="matrix(0.9989 0.0464 -0.0464 0.9989 471.293 644.5234)" fill="#FFFFFF" font-family="'Lobster-Regular'" font-size="247.2518">c</text>
+</svg>
