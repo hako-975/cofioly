@@ -108,19 +108,19 @@
 	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
 	    <ul class="navbar-nav mx-auto">
 	      <li class="nav-item">
-	        <a style="color: #E19026" class="nav-link page-scroll" href="#page-top"><i class="fas fa-fw fa-home"></i> Home</a>
+	        <a style="color: #E19026" class="nav-link page-scroll" href="#page-top"><i class="fas fa-fw fa-home"></i> Beranda</a>
 	      </li>
 	      <li class="nav-item">
-	        <a style="color: #E19026" class="nav-link page-scroll" href="#about"><i class="fas fa-fw fa-user"></i> About</a>
+	        <a style="color: #E19026" class="nav-link page-scroll" href="#about"><i class="fas fa-fw fa-user"></i> Tentang</a>
 	      </li>
 	      <li class="nav-item">
-	        <a style="color: #E19026" class="nav-link page-scroll" href="#social"><i class="fab fa-fw fa-facebook"></i> Social</a>
+	        <a style="color: #E19026" class="nav-link page-scroll" href="#social"><i class="fab fa-fw fa-facebook"></i> Sosial Media</a>
 	      </li>
 	      <li class="nav-item">
-	        <a style="color: #E19026" class="nav-link page-scroll" href="#gallery"><i class="fas fa-fw fa-image"></i> Gallery</a>
+	        <a style="color: #E19026" class="nav-link page-scroll" href="#gallery"><i class="fas fa-fw fa-image"></i> Galeri</a>
 	      </li>
 	      <li class="nav-item">
-	        <a style="color: #E19026" class="nav-link page-scroll" href="#contact"><i class="fas fa-fw fa-envelope"></i> Contact</a>
+	        <a style="color: #E19026" class="nav-link page-scroll" href="#contact"><i class="fas fa-fw fa-envelope"></i> Kontak</a>
 	      </li>
 	    </ul>
 	  </div>
@@ -143,7 +143,7 @@
     <div class="container">
       <div class="row">
         <div class="col text-center pb-3">
-          <h2>About</h2>
+          <h2>Tentang</h2>
         </div>
       </div>
       <div class="row justify-content-center">
@@ -166,7 +166,7 @@
     <div class="container">
       <div class="row">
         <div class="col text-center pb-3">
-          <h2>Social</h2>
+          <h2>Sosial Media</h2>
         </div>
       </div>
       <div class="owl-carousel owl-theme">
@@ -295,7 +295,7 @@
     <div class="container">
       <div class="row">
         <div class="col text-center pb-3">
-          <h2>Gallery</h2>
+          <h2>Galeri</h2>
         </div>
       </div>
       <div class="row justify-content-center my-2">
@@ -310,12 +310,12 @@
     </div>
 </section>
 
-<!-- Contact -->
+<!-- Kontak -->
 <section class="my-5 py-5 contact bg-gray" id="contact">
     <div class="container">
       <div class="row">
         <div class="col text-center pb-3">
-          <h2>Contact</h2>
+          <h2>Kontak</h2>
         </div>
       </div>
 
@@ -375,7 +375,7 @@
 </section>
 
 <!-- footer -->
-<footer class="bg-cofioly text-white mt-n5 py-5">
+<footer class="bg-cofioly text-white mt-n5 py-4">
     <div class="container">
       <div class="row">
         <div class="col text-center">

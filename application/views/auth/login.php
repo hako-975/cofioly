@@ -1,7 +1,7 @@
 <div class="container pt-3">
 	<div class="row justify-content-center">
 		<div style="border: 5px dashed;" class="col-lg-4 pt-2 bg-white text-center border-dark rounded px-4 py-4 mx-3">
-			<form method="post">
+			<form method="post" action="<?= base_url('auth/index'); ?>">
 				<img src="<?= base_url(); ?>assets/img/img_properties/logo-cofioly.png" alt="logo" class="img-fluid" width="100">
 				<h5 class="my-2 text-dark">Login to <span class="cofioly-font">Cofioly</span></h5>
 				<div class="form-group text-left">

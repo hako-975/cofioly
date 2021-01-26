@@ -115,19 +115,19 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a style="color: #E19026" class="nav-link page-scroll" href="#page-top"><i class="fas fa-fw fa-home"></i> Home</a>
+            <a style="color: #E19026" class="nav-link page-scroll" href="#page-top"><i class="fas fa-fw fa-home"></i> Beranda</a>
           </li>
           <li class="nav-item">
-            <a style="color: #E19026" class="nav-link page-scroll" href="#about"><i class="fas fa-fw fa-user"></i> About</a>
+            <a style="color: #E19026" class="nav-link page-scroll" href="#about"><i class="fas fa-fw fa-user"></i> Tentang</a>
           </li>
           <li class="nav-item">
-            <a style="color: #E19026" class="nav-link page-scroll" href="#social"><i class="fab fa-fw fa-facebook"></i> Social</a>
+            <a style="color: #E19026" class="nav-link page-scroll" href="#social"><i class="fab fa-fw fa-facebook"></i> Sosial Media</a>
           </li>
           <li class="nav-item">
-            <a style="color: #E19026" class="nav-link page-scroll" href="#gallery"><i class="fas fa-fw fa-image"></i> Gallery</a>
+            <a style="color: #E19026" class="nav-link page-scroll" href="#gallery"><i class="fas fa-fw fa-image"></i> Galeri</a>
           </li>
           <li class="nav-item">
-            <a style="color: #E19026" class="nav-link page-scroll" href="#contact"><i class="fas fa-fw fa-envelope"></i> Contact</a>
+            <a style="color: #E19026" class="nav-link page-scroll" href="#contact"><i class="fas fa-fw fa-envelope"></i> Kontak</a>
           </li>
         </ul>
       </div>
@@ -159,12 +159,12 @@
     </div>
   </div>
 
-  <!-- About -->
-  <section class="about" id="about">
+  <!-- Tentang -->
+  <section class="pt-4 about" id="about">
     <div class="container pt-4">
       <div class="row pt-4 mb-4">
         <div class="col text-center">
-          <h2>About</h2>
+          <h2>Tentang</h2>
         </div>
       </div>
       <div class="row justify-content-center">
@@ -188,12 +188,12 @@
     </div>
   </section>
 
-  <!-- Social -->
+  <!-- Sosial Media -->
   <section id="social" class="social bg-light">
     <div class="container pt-4">
       <div class="row pt-4 mb-4">
         <div class="col text-center">
-          <h2>Social</h2>
+          <h2>Sosial Media</h2>
         </div>
       </div>
       <div class="owl-carousel owl-theme">
@@ -233,7 +233,7 @@
           </div>
         </div>
         <div style="position: relative;" class="border border-dark rounded">
-          <button id="editSocialButton" data-toggle="modal" data-target="#editSocialButtonModal" type="button" class="btn text-light" style="-webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6)); position: absolute; right: 0; top: 0"><i class="fas fa-1x fa-edit"></i></button>
+          <button id="editSosial MediaButton" data-toggle="modal" data-target="#editSosial MediaButtonModal" type="button" class="btn text-light" style="-webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6)); position: absolute; right: 0; top: 0"><i class="fas fa-1x fa-edit"></i></button>
           <div class="row justify-content-center">
             <div class="col-md-5 my-3 text-center mx-auto">
               <a href="<?= $landing['fb_link']; ?>" target="_blank" class="text-decoration-none social_link">
@@ -275,7 +275,7 @@
           </div>
         </div>
         <div style="position: relative;" class="border border-dark rounded">
-          <button id="editSocialButton" data-toggle="modal" data-target="#editSocialButtonModal" type="button" class="btn text-light" style="-webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6)); position: absolute; right: 0; top: 0"><i class="fas fa-1x fa-edit"></i></button>
+          <button id="editSosial MediaButton" data-toggle="modal" data-target="#editSosial MediaButtonModal" type="button" class="btn text-light" style="-webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6)); position: absolute; right: 0; top: 0"><i class="fas fa-1x fa-edit"></i></button>
           <div class="row justify-content-center">
             <div class="col-md-5 my-3 text-center mx-auto">
               <a href="<?= $landing['twitter_link']; ?>" target="_blank" class="text-decoration-none social_link">
@@ -317,11 +317,11 @@
   </section>
 
   <!-- gallery -->
-  <section class="gallery" id="gallery">
+  <section class="pt-4 gallery" id="gallery">
     <div class="container pt-4">
       <div class="row pt-4 mb-4">
         <div class="col text-center">
-          <h2>Gallery</h2>
+          <h2>Galeri</h2>
         </div>
       </div>
       <div class="row justify-content-center my-2">
@@ -337,13 +337,13 @@
     </div>
   </section>
 
-  <!-- Contact -->
-  <section class="contact bg-light" id="contact">
+  <!-- Kontak -->
+  <section class="pt-4 contact bg-light" id="contact">
     <div class="border border-dark rounded container pt-4" style="position: relative;">
-      <button id="editContactButton" data-toggle="modal" data-target="#editContactButtonModal" type="button" class="btn text-light" style="-webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6)); position: absolute; right: 0; top: 0"><i class="fas fa-1x fa-edit"></i></button>
+      <button id="editKontakButton" data-toggle="modal" data-target="#editKontakButtonModal" type="button" class="btn text-light" style="-webkit-filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.6)); position: absolute; right: 0; top: 0"><i class="fas fa-1x fa-edit"></i></button>
       <div class="row pt-4 mb-4">
         <div class="col text-center">
-          <h2>Contact</h2>
+          <h2>Kontak</h2>
         </div>
       </div>
 
@@ -403,7 +403,7 @@
   </section>
 
   <!-- footer -->
-  <footer class="bg-cofioly text-white mt-5">
+  <footer class="bg-cofioly text-white py-4">
       <div class="container">
         <div class="row">
           <div class="col text-center">
@@ -512,12 +512,12 @@
   </div>
 </div>
 
-<div class="modal fade" id="editSocialButtonModal" tabindex="-1" role="dialog" aria-labelledby="editSocialButtonModalLabel" aria-hidden="true">
+<div class="modal fade" id="editSosial MediaButtonModal" tabindex="-1" role="dialog" aria-labelledby="editSosial MediaButtonModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
-    <form action="<?= base_url('landing/editSocial'); ?>" method="post" enctype="multipart/form-data">
+    <form action="<?= base_url('landing/editSosial Media'); ?>" method="post" enctype="multipart/form-data">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="editSocialButtonModalLabel">Ubah Social</h5>
+          <h5 class="modal-title" id="editSosial MediaButtonModalLabel">Ubah Sosial Media</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -536,7 +536,7 @@
             <input type="text" id="twitter_link" class="form-control" value="<?= $landing['twitter_link']; ?>" name="twitter_link">
           </div>
           <div class="form-group">
-            <label for="whatsapp_number"><i class="fab fa-fw fa-whatsapp"></i> Whatsapp Link</label>
+            <label for="whatsapp_number"><i class="fab fa-fw fa-whatsapp"></i> No. Whatsapp</label>
             <input type="text" id="whatsapp_number" class="form-control" value="<?= $landing['whatsapp_number']; ?>" name="whatsapp_number">
           </div>
         </div>
@@ -549,19 +549,19 @@
   </div>
 </div>
 
-<div class="modal fade" id="editContactButtonModal" tabindex="-1" role="dialog" aria-labelledby="editContactButtonModalLabel" aria-hidden="true">
+<div class="modal fade" id="editKontakButtonModal" tabindex="-1" role="dialog" aria-labelledby="editKontakButtonModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
-    <form action="<?= base_url('landing/editContact'); ?>" method="post" enctype="multipart/form-data">
+    <form action="<?= base_url('landing/editKontak'); ?>" method="post" enctype="multipart/form-data">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="editContactButtonModalLabel">Ubah Contact</h5>
+          <h5 class="modal-title" id="editKontakButtonModalLabel">Ubah Kontak</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
           <div class="form-group">
-            <label for="contact_header"><i class="fas fa-fw fa-address-card"></i> Contact Header</label>
+            <label for="contact_header"><i class="fas fa-fw fa-address-card"></i> Kontak Header</label>
             <textarea rows="5" id="contact_header" class="form-control" name="contact_header"><?= $landing['contact_header']; ?></textarea>
           </div>
           <div class="alert alert-info" role="alert">

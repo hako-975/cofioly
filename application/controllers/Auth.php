@@ -20,6 +20,7 @@ class Auth extends CI_Controller
 		if ($this->session->userdata('username')) {
 			redirect('admin');
 		}
+
 		// data
 		$data['title'] = 'login';
 
@@ -52,12 +53,14 @@ class Auth extends CI_Controller
 						'username' => $user['username'],
 						'email' => $user['email']
 					];
+
 					$this->session->set_userdata($data_session);
-					if (isset($_GET['link'])) {
+
+					if(isset($_GET['link'])) {
 						redirect($_GET['link']);
-					} else {
-						redirect('admin');
 					}
+
+					redirect('admin');
 				} else {
 					$this->session->set_flashdata('message-failed', 'Wrong password');
 					redirect('auth');
