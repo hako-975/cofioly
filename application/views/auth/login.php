@@ -30,6 +30,8 @@
 				<hr class="bg-dark">
 				<div class="form-group text-center">
 					<a class="text-decoration-none" href="<?= base_url(); ?>auth/forgotPassword">Forgot Password?</a>
+					<br>
+					<a class="text-decoration-none" href="<?= base_url(); ?>">Back to Home</a>
 				</div>
 			</form>
 		</div>

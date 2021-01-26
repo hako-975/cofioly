@@ -54,7 +54,7 @@
 		}
 
 		.loader {
-		  background-image: url(http://cofioly.xyz/assets/img/img_properties/gif-cofioly.gif);
+		  background-image: url(<?= base_url(); ?>assets/img/img_properties/gif-cofioly.gif);
 		  background-repeat: no-repeat;
 		  background-size: cover;
 		  min-width: 10rem;

@@ -26,7 +26,7 @@
 <style>
   .fluid-jumbotron {
       margin-top: 50px;
-    background-image: url(../../../../../../../../cofioly_web_profile/assets/img/img_jumbotrons/<?= $landing['img_jumbotron']; ?>);
+    background-image: url(<?= base_url(); ?>assets/img/img_jumbotrons/<?= $landing['img_jumbotron']; ?>);
     background-size: cover;
     background-repeat: no-repeat;
   }

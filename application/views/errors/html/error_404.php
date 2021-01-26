@@ -1,5 +1,17 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+
+class ErrorPages extends CI_Controller 
+{
+	public function getLanding()
+	{
+		return $this->db->get("landing")->row_array(); 
+	}
+}
+
+$landing = new ErrorPages();
+$landing = $landing->getLanding();
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -37,16 +49,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div class="container">
 		<div class="row my-2">
 			<div style="border-top-right-radius: 120px!important;" class="col-lg-5 mx-4 p-3 rounded-lg border-dark border">
-				<h1 class="font-weight-bold">oops!</h1>
+				<h1 class="font-weight-bold">Oops!</h1>
 				<h2 class="font-weight-bold">Error 404 : Page Not Found</h2>
 				<a href="<?= config_item('base_url'); ?>auth" class="btn btn-outline-dark my-3 p-3 px-4 cofioly-font rounded-pill"><i class="fas fa-fw fa-chevron-circle-left"></i> Go Back</a>
 			</div>
 		</div>
 		<div class="row my-2">
 			<div style="border-top-right-radius: 0!important; border-top-left-radius: 0!important" class="col-lg-5 mx-4 text-center rounded-pill p-2 border-dark border">
-				<a target="_blank" class="mx-1 rounded-circle" href="https://www.facebook.com/Andri975"><i class="fab fa-2x fa-facebook"></i></a>
-				<a target="_blank" class="mx-1 rounded-circle" href="https://www.twitter.com/AndriFirmanSap3"><i class="fab fa-2x fa-twitter"></i></a>
-				<a target="_blank" class="mx-1 rounded-circle" href="https://www.instagram.com/andri_firman_975"><i class="fab fa-2x fa-instagram"></i></a>
+				<a target="_blank" class="mx-1 rounded-circle" href="<?= $landing['fb_link']; ?>"><i class="fab fa-2x fa-facebook"></i></a>
+				<a target="_blank" class="mx-1 rounded-circle" href="<?= $landing['ig_link']; ?>"><i class="fab fa-2x fa-instagram"></i></a>
+				<a target="_blank" class="mx-1 rounded-circle" href="<?= $landing['twitter_link']; ?>"><i class="fab fa-2x fa-twitter"></i></a>
 			</div>
 		</div>
 	</div>

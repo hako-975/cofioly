@@ -7,8 +7,10 @@
     curl_close($curl);
     return json_decode($result, true);
   }
+
   // UCPEIoenMUgB77Olv7rtekhg --> cofioly
   // UC-lHJZR3Gqxm24_Vd_AJ5Yw --> pewdiepie
+
   $channelId = $landing['channel_id_yt'];
   $result = get_CURL('https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id='.$channelId.'&key=AIzaSyCMHm9kJ2NP90GYW_qJKNkfm5Zn12kF8tQ');
   error_reporting(0);
@@ -26,26 +28,26 @@
 		
 	.fluid-jumbotron {
     margin-top: 50px;
-		background-image: url(http://cofioly.xyz/assets/img/img_jumbotrons/<?= $landing['img_jumbotron']; ?>);
+		background-image: url(<?= base_url(); ?>assets/img/img_jumbotrons/<?= $landing['img_jumbotron']; ?>);
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
 
 	.fluid-jumbotron img {
-	    width: 25%;
+    width: 25%;
 	}
 
 	section {
-	    min-height: 420px;
+    min-height: 420px;
 	}
 
 	footer {
-	    min-height: 50px;
-	    padding-top:12px;
+    min-height: 50px;
+    padding-top:12px;
 	}
 
 	.text-shadow {
-		text-shadow: 2.5px 2.5px 2.5px rgba(0,0,0,0.8);
+		text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
 	}
 
 	a.nav-link:hover {
@@ -66,12 +68,12 @@
 	}
 
 	.alert-width {
-	    position: fixed; 
-	    bottom: 10px; 
-	    right: 10px; 
-	    left: 10px; 
-	    z-index: 9999;
-	    width: 100%;
+    position: fixed; 
+    bottom: 10px; 
+    right: 10px; 
+    left: 10px; 
+    z-index: 9999;
+    width: 100%;
 	}
 
 	.text-center-left {
@@ -79,7 +81,7 @@
 	}
 
 	.width-200 {
-	    width: 200px !important;
+    width: 200px !important;
 	}
 
 
@@ -137,10 +139,10 @@
 </div>
 
 <!-- About -->
-<section class="about" id="about">
-    <div class="container pt-4">
-      <div class="row pt-4 mb-4">
-        <div class="col text-center">
+<section class="my-5 py-5 about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center pb-3">
           <h2>About</h2>
         </div>
       </div>
@@ -160,10 +162,10 @@
 </section>
 
 <!-- YouTube -->
-<section id="social" class="social bg-light">
-    <div class="container pt-4">
-      <div class="row pt-4 mb-4">
-        <div class="col text-center">
+<section class="my-5 py-5 social bg-gray" id="social">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center pb-3">
           <h2>Social</h2>
         </div>
       </div>
@@ -289,10 +291,10 @@
 </section>
 
 <!-- gallery -->
-<section class="gallery" id="gallery">
-    <div class="container pt-4">
-      <div class="row pt-4 mb-4">
-        <div class="col text-center">
+<section class="my-5 py-5 gallery" id="gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center pb-3">
           <h2>Gallery</h2>
         </div>
       </div>
@@ -309,10 +311,10 @@
 </section>
 
 <!-- Contact -->
-<section class="contact bg-light" id="contact">
-    <div class="container pt-4">
-      <div class="row pt-4 mb-4">
-        <div class="col text-center">
+<section class="my-5 py-5 contact bg-gray" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center pb-3">
           <h2>Contact</h2>
         </div>
       </div>
@@ -373,11 +375,11 @@
 </section>
 
 <!-- footer -->
-<footer class="bg-cofioly text-white mt-5">
+<footer class="bg-cofioly text-white mt-n5 py-5">
     <div class="container">
       <div class="row">
         <div class="col text-center">
-          <p class="text-white"><?= $landing['footer']; ?></p>
+          <p class="text-white my-auto"><?= $landing['footer']; ?></p>
         </div>
       </div>
     </div>
