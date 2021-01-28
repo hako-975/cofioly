@@ -46,7 +46,7 @@ public function updatePasswordByEmail($password, $email)
 // ----------------------------------- DELETE -----------------------------------
 	public function deleteTokenByEmail($email)
 	{
-		return $this->db->delete('user_token', ['email' => $email]);;
+		return $this->db->delete('user_token', ['email' => $email]);
 	}
 
 	public function deleteUserByEmail($email)
